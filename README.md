@@ -40,7 +40,12 @@
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.patterns": {},
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock*, eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb",
+    "tailwind.config*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env"
+  },
 
   // Window
   "window.menuBarVisibility": "compact",
