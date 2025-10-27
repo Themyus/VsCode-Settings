@@ -2,6 +2,7 @@
 
 ```json
 {
+  // Editor
   "editor.formatOnSave": true,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
@@ -21,6 +22,7 @@
   "editor.cursorBlinking": "smooth",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
+  // Workbench
   "workbench.tree.indent": 8,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.showTabs": "multiple",
@@ -35,14 +37,17 @@
   "workbench.activityBar.location": "hidden",
   "workbench.panel.showLabels": false,
 
+  // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {},
 
+  // Window
   "window.menuBarVisibility": "compact",
   "window.commandCenter": false,
   "window.zoomLevel": 0,
 
+  // Git
   "git.decorations.enabled": false,
   "git.ignoreLimitWarning": true,
   "git.openRepositoryInParentFolders": "never",
@@ -55,6 +60,7 @@
     "scminput": false
   },
 
+  // Terminal
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
@@ -79,6 +85,7 @@
     }
   },
 
+  // Others
   "chat.commandCenter.enabled": false,
   "redhat.telemetry.enabled": true,
   "laravel-pint.enable": true,
