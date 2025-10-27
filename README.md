@@ -19,7 +19,7 @@
   "editor.tabSize": 2,
   "editor.cursorHeight": 30,
   "editor.cursorWidth": 3,
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "blink",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   // Workbench
