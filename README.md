@@ -5,7 +5,7 @@
   // Editor
   "editor.formatOnSave": true,
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.fontLigatures": true,
   "editor.lineHeight": 2.2,
   "editor.rulers": [120],
@@ -16,7 +16,7 @@
   "editor.minimap.enabled": false,
   "editor.semanticHighlighting.enabled": false,
   "editor.parameterHints.enabled": false,
-  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.vertical": "visible",
   "editor.scrollbar.horizontal": "hidden",
   "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
@@ -52,7 +52,7 @@
   "workbench.colorTheme": "Vesper",
   "workbench.preferredDarkColorTheme": "Vesper",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "catppuccin-frappe",
+  "workbench.iconTheme": "symbols",
   "symbols.hidesExplorerArrows": true,
   "symbols.files.associations": {
     "*.module.ts": "nest",
@@ -121,6 +121,7 @@
   },
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.8,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.showExitAlert": false,
 
@@ -246,4 +247,3 @@
     "zscore"
   ]
 }
-
