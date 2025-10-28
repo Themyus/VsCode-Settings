@@ -52,7 +52,7 @@
   "workbench.colorTheme": "Vesper",
   "workbench.preferredDarkColorTheme": "Vesper",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "catppuccin-frappe",
   "symbols.hidesExplorerArrows": true,
   "symbols.files.associations": {
     "*.module.ts": "nest",
@@ -246,3 +246,4 @@
     "zscore"
   ]
 }
+
