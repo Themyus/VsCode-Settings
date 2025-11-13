@@ -5,17 +5,17 @@
   // Editor
   "editor.formatOnSave": true,
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.lineHeight": 2.2,
-  "editor.rulers": [120],
+  "editor.rulers": [140],
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 150,
   "editor.renderLineHighlight": "gutter",
   "editor.minimap.renderCharacters": false,
   "editor.minimap.enabled": false,
   "editor.semanticHighlighting.enabled": false,
-  "editor.parameterHints.enabled": false,
+  "editor.parameterHints.enabled": false, ei vini
   "editor.scrollbar.vertical": "visible",
   "editor.scrollbar.horizontal": "hidden",
   "editor.stickyScroll.enabled": false,
@@ -47,10 +47,10 @@
   "workbench.startupEditor": "none",
   "workbench.view.alwaysShowHeaderActions": false,
   "workbench.secondarySideBar.defaultVisibility": "visible",
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "bottom",
   "workbench.panel.showLabels": false,
   "workbench.colorTheme": "Vesper",
-  "workbench.preferredDarkColorTheme": "Vesper",
+  "workbench.preferredDarkColorTheme": "Oscura Midnight",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "symbols",
   "symbols.hidesExplorerArrows": true,
@@ -106,9 +106,6 @@
     "markdown": false,
     "scminput": false
   },
-
-  // JavaScript
-  "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   // Terminal
@@ -169,6 +166,8 @@
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "files.autoSave": "afterDelay",
   "update.mode": "start",
+  "python.analysis.autoImportCompletions": true,
+  "java.saveActions.organizeImports": true,
 
   // CSpell
   "cSpell.language": "en,pt",
