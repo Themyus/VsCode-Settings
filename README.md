@@ -5,7 +5,7 @@
   // Editor
   "editor.formatOnSave": true,
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "editor.fontLigatures": true,
   "editor.lineHeight": 2.2,
   "editor.rulers": [140],
@@ -15,8 +15,8 @@
   "editor.minimap.renderCharacters": false,
   "editor.minimap.enabled": false,
   "editor.semanticHighlighting.enabled": false,
-  "editor.parameterHints.enabled": false, ei vini
-  "editor.scrollbar.vertical": "visible",
+  "editor.parameterHints.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
@@ -37,12 +37,12 @@
   "eslint.validate": ["javascript", "javascriptreact", "graphql"],
 
   // Workbench
-  "workbench.tree.indent": 16,
+  "workbench.tree.indent": 12,
   "workbench.tree.enableStickyScroll": false,
   "workbench.editor.labelFormat": "short",
-  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.showTabs": "none",
   "workbench.editor.empty.hint": "hidden",
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "workbench.navigationControl.enabled": false,
   "workbench.startupEditor": "none",
   "workbench.view.alwaysShowHeaderActions": false,
@@ -50,9 +50,13 @@
   "workbench.activityBar.location": "bottom",
   "workbench.panel.showLabels": false,
   "workbench.colorTheme": "Vesper",
-  "workbench.preferredDarkColorTheme": "Oscura Midnight",
+  "workbench.preferredDarkColorTheme": "Vesper",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "symbols",
+  "workbench.colorCustomizations": {
+    "terminal.border": "#80808000",
+    "panel.border": "#80808000"
+  },
   "symbols.hidesExplorerArrows": true,
   "symbols.files.associations": {
     "*.module.ts": "nest",
@@ -116,14 +120,25 @@
       "args": ["-NoExit", "-Command", "chcp 65001"]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.lineHeight": 1.8,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 2,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "ms-settings"
+  ],
 
   // Custom UI Style
-  "custom-ui-style.font.sansSerif": "JetBrains Mono Regular, -apple-system",
+  "custom-ui-style.font.sansSerif": "Inter, -apple-system",
   "custom-ui-style.stylesheet": {
     ".title-label > h2": "display: none",
     ".editor-actions": "display: none",
@@ -137,6 +152,7 @@
     ".explorer-viewlet .monaco-list-row .monaco-tl-row": {
       "box-sizing": "border-box"
     },
+
     ".explorer-viewlet .monaco-list-row:hover, .explorer-viewlet .monaco-list-row.selected": {
       "border-radius": "4px",
       "overflow": "hidden"
