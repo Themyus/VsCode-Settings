@@ -7,10 +7,10 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13,
   "editor.fontLigatures": true,
-  "editor.lineHeight": 2.2,
+  "editor.lineHeight": 2.4,
   "editor.rulers": [],
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 140,
+  "editor.wordWrapColumn": 150,
   "editor.renderLineHighlight": "gutter",
   "editor.minimap.renderCharacters": false,
   "editor.semanticHighlighting.enabled": false,
@@ -28,10 +28,10 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.suggestSelection": "first",
   "editor.tokenColorCustomizations": {
-    "textMateRules": []
+    "textMateRules": [],
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
   },
 
   // ESlint
@@ -43,20 +43,19 @@
   "workbench.editor.labelFormat": "short",
   "workbench.editor.showTabs": "none",
   "workbench.editor.empty.hint": "hidden",
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "workbench.navigationControl.enabled": false,
   "workbench.startupEditor": "none",
   "workbench.view.alwaysShowHeaderActions": false,
-  "workbench.secondarySideBar.defaultVisibility": "visible",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.activityBar.location": "bottom",
   "workbench.panel.showLabels": false,
   "workbench.colorTheme": "Vesper",
-  "workbench.preferredDarkColorTheme": "Vesper",
-  "workbench.productIconTheme": "fluent-icons",
+  "workbench.productIconTheme": "Default",
   "workbench.iconTheme": "symbols",
   "workbench.colorCustomizations": {
     "terminal.border": "#80808000",
-    "panel.border": "#80808000"
+    "panel.border": "#80808000",
   },
   "symbols.hidesExplorerArrows": true,
   "symbols.files.associations": {
@@ -71,14 +70,14 @@
     ".env.local": "gear",
     ".env.sst": "gear",
     ".env.example": "gear",
-    "*.ndjson": "brackets-orange"
+    "*.ndjson": "brackets-orange",
   },
   "files.associations": {
     ".env.*": "dotenv",
     ".prettierrc": "json",
     "*.css": "postcss",
     ".dev.vars": "dotenv",
-    "*.ndjson": "jsonl"
+    "*.ndjson": "jsonl",
   },
 
   // Explorer
@@ -89,7 +88,7 @@
     "package.json": ".eslint*, eslint.config.*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
-    ".env": ".env*"
+    ".env": ".env*",
   },
 
   // Window
@@ -109,7 +108,7 @@
     "*": false,
     "plaintext": false,
     "markdown": false,
-    "scminput": false
+    "scminput": false,
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
 
@@ -118,8 +117,8 @@
     "PowerShell": {
       "source": "PowerShell",
       "icon": "terminal-powershell",
-      "args": ["-NoExit", "-Command", "chcp 65001"]
-    }
+      "args": ["-NoExit", "-Command", "chcp 65001"],
+    },
   },
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 2,
@@ -135,7 +134,7 @@
     "mailto",
     "vscode",
     "vscode-insiders",
-    "ms-settings"
+    "ms-settings",
   ],
 
   // Custom UI Style
@@ -151,28 +150,28 @@
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
 
     ".explorer-viewlet .monaco-list-row .monaco-tl-row": {
-      "box-sizing": "border-box"
+      "box-sizing": "border-box",
     },
 
     ".explorer-viewlet .monaco-list-row:hover, .explorer-viewlet .monaco-list-row.selected": {
       "border-radius": "4px",
-      "overflow": "hidden"
-    }
+      "overflow": "hidden",
+    },
   },
   "custom-ui-style.electron": {
     "frame": false,
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
       "x": 11,
-      "y": 10
-    }
+      "y": 10,
+    },
   },
 
   // Tailwind CSS
   "tailwindCSS.experimental.classRegex": [
     ["tv\\(([^)]*)\\)", "cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     "class:\\s*?[\"'`]([^\"'`]*).*?,",
-    "tw\\('([^']*)'\\)"
+    "tw\\('([^']*)'\\)",
   ],
 
   // Others
@@ -260,6 +259,11 @@
     "webm",
     "WEBPUSH",
     "zrevrank",
-    "zscore"
-  ]
+    "zscore",
+  ],
+  "workbench.preferredDarkColorTheme": "Oscura Midnight",
+  "console-ninja.featureSet": "Community",
+  "emmet.includeLanguages": {
+    "typescriptreact": "javascriptreact",
+  },
 }
