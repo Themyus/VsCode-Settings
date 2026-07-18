@@ -58,7 +58,7 @@
   "workbench.colorCustomizations": {
     "terminal.border": "#80808000",
     "panel.border": "#80808000",
-    // Fundo sem override: segue o tema (camuflado). Fontes = paleta do terminal do Zed (tema Vesper, ~/.local/share/zed/extensions/installed/vesper)
+    // Fundo sem override
     "terminal.foreground": "#A0A0A0",
     "terminal.ansiBlack": "#101010",
     "terminal.ansiBrightBlack": "#7E7E7E",
@@ -164,7 +164,7 @@
     "tw\\('([^']*)'\\)",
   ],
 
-  // Custom CSS (extensao "Custom CSS and JS Loader" - be5invis.vscode-custom-css)
+  // Custom CSS
   // arquivo em ~/.config/Code/User/custom.css: raio + padding nos itens do explorer
   "vscode_custom_css.imports": [
     "file:///home/themyus/.config/Code/User/custom.css",
