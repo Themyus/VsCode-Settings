@@ -165,7 +165,6 @@
   ],
 
   // Custom CSS
-  // arquivo em ~/.config/Code/User/custom.css: raio + padding nos itens do explorer
   "vscode_custom_css.imports": [
     "file:///home/themyus/.config/Code/User/custom.css",
   ],
