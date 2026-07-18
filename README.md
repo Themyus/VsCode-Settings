@@ -10,7 +10,7 @@
   "editor.lineHeight": 2.4,
   "editor.rulers": [],
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 150,
+  "editor.wordWrapColumn": 120,
   "editor.renderLineHighlight": "gutter",
   "editor.minimap.renderCharacters": false,
   "editor.semanticHighlighting.enabled": false,
@@ -38,8 +38,10 @@
   "eslint.validate": ["javascript", "javascriptreact", "graphql"],
 
   // Workbench
-  "workbench.tree.indent": 12,
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "none",
   "workbench.tree.enableStickyScroll": false,
+  "workbench.list.rowHeight": 32,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.showTabs": "none",
   "workbench.editor.empty.hint": "hidden",
@@ -48,7 +50,7 @@
   "workbench.startupEditor": "none",
   "workbench.view.alwaysShowHeaderActions": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.activityBar.location": "bottom",
+  "workbench.activityBar.location": "top",
   "workbench.panel.showLabels": false,
   "workbench.colorTheme": "Vesper",
   "workbench.productIconTheme": "Default",
@@ -56,6 +58,24 @@
   "workbench.colorCustomizations": {
     "terminal.border": "#80808000",
     "panel.border": "#80808000",
+    // Fundo sem override: segue o tema (camuflado). Fontes = paleta do terminal do Zed (tema Vesper, ~/.local/share/zed/extensions/installed/vesper)
+    "terminal.foreground": "#A0A0A0",
+    "terminal.ansiBlack": "#101010",
+    "terminal.ansiBrightBlack": "#7E7E7E",
+    "terminal.ansiRed": "#f5a191",
+    "terminal.ansiBrightRed": "#ff8080",
+    "terminal.ansiGreen": "#90b99f",
+    "terminal.ansiBrightGreen": "#99FFE4",
+    "terminal.ansiYellow": "#e6b99d",
+    "terminal.ansiBrightYellow": "#FFC799",
+    "terminal.ansiBlue": "#aca1cf",
+    "terminal.ansiBrightBlue": "#b9aeda",
+    "terminal.ansiMagenta": "#e29eca",
+    "terminal.ansiBrightMagenta": "#ecaad6",
+    "terminal.ansiCyan": "#ea83a5",
+    "terminal.ansiBrightCyan": "#f591b2",
+    "terminal.ansiWhite": "#A0A0A0",
+    "terminal.ansiBrightWhite": "#ffffff",
   },
   "symbols.hidesExplorerArrows": true,
   "symbols.files.associations": {
@@ -94,7 +114,7 @@
   // Window
   "window.menuBarVisibility": "compact",
   "window.commandCenter": false,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 0.4,
   "window.autoDetectColorScheme": true,
   "window.titleBarStyle": "custom",
 
@@ -110,7 +130,7 @@
     "markdown": false,
     "scminput": false,
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
 
   // Terminal
   "terminal.integrated.profiles.windows": {
@@ -137,41 +157,17 @@
     "ms-settings",
   ],
 
-  // Custom UI Style
-  "custom-ui-style.font.sansSerif": "Inter, -apple-system",
-  "custom-ui-style.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".editor-actions": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-header": "padding: 0 8px",
-    ".pane-body": "padding: 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
-    ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
-
-    ".explorer-viewlet .monaco-list-row .monaco-tl-row": {
-      "box-sizing": "border-box",
-    },
-
-    ".explorer-viewlet .monaco-list-row:hover, .explorer-viewlet .monaco-list-row.selected": {
-      "border-radius": "4px",
-      "overflow": "hidden",
-    },
-  },
-  "custom-ui-style.electron": {
-    "frame": false,
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10,
-    },
-  },
-
   // Tailwind CSS
   "tailwindCSS.experimental.classRegex": [
     ["tv\\(([^)]*)\\)", "cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     "class:\\s*?[\"'`]([^\"'`]*).*?,",
     "tw\\('([^']*)'\\)",
+  ],
+
+  // Custom CSS (extensao "Custom CSS and JS Loader" - be5invis.vscode-custom-css)
+  // arquivo em ~/.config/Code/User/custom.css: raio + padding nos itens do explorer
+  "vscode_custom_css.imports": [
+    "file:///home/themyus/.config/Code/User/custom.css",
   ],
 
   // Others
@@ -261,9 +257,10 @@
     "zrevrank",
     "zscore",
   ],
-  "workbench.preferredDarkColorTheme": "Oscura Midnight",
+  "workbench.preferredDarkColorTheme": "Vesper",
   "console-ninja.featureSet": "Community",
   "emmet.includeLanguages": {
     "typescriptreact": "javascriptreact",
   },
+  "claudeCode.preferredLocation": "panel",
 }
