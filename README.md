@@ -38,10 +38,9 @@
   "eslint.validate": ["javascript", "javascriptreact", "graphql"],
 
   // Workbench
-  "workbench.tree.indent": 16,
-  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "onHover",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.list.rowHeight": 32,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.showTabs": "none",
   "workbench.editor.empty.hint": "hidden",
@@ -51,14 +50,13 @@
   "workbench.view.alwaysShowHeaderActions": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.activityBar.location": "top",
-  "workbench.panel.showLabels": false,
   "workbench.colorTheme": "Vesper",
   "workbench.productIconTheme": "Default",
   "workbench.iconTheme": "symbols",
   "workbench.colorCustomizations": {
     "terminal.border": "#80808000",
     "panel.border": "#80808000",
-    // Fundo sem override
+    // Fundo sem override: segue o tema (camuflado). Fontes = paleta do terminal do Zed (tema Vesper, ~/.local/share/zed/extensions/installed/vesper)
     "terminal.foreground": "#A0A0A0",
     "terminal.ansiBlack": "#101010",
     "terminal.ansiBrightBlack": "#7E7E7E",
@@ -110,10 +108,6 @@
     ".env.local": ".env*",
     ".env": ".env*",
   },
-
-  // Window
-  "window.menuBarVisibility": "compact",
-  "window.commandCenter": false,
   "window.zoomLevel": 0.4,
   "window.autoDetectColorScheme": true,
   "window.titleBarStyle": "custom",
@@ -144,7 +138,7 @@
   "terminal.integrated.lineHeight": 2,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.showExitAlert": false,
-  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.allowedLinkSchemes": [
@@ -164,7 +158,8 @@
     "tw\\('([^']*)'\\)",
   ],
 
-  // Custom CSS
+  // Custom CSS (extensao "Custom CSS and JS Loader" - be5invis.vscode-custom-css)
+  // arquivo em ~/.config/Code/User/custom.css: raio + padding nos itens do explorer
   "vscode_custom_css.imports": [
     "file:///home/themyus/.config/Code/User/custom.css",
   ],
@@ -262,4 +257,9 @@
     "typescriptreact": "javascriptreact",
   },
   "claudeCode.preferredLocation": "panel",
+  "workbench.panel.showLabels": false,
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "workbench.browser.showInTitleBar": false,
 }
