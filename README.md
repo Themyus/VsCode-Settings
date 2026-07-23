@@ -5,7 +5,7 @@
   // Editor
   "editor.formatOnSave": true,
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.lineHeight": 2.4,
   "editor.rulers": [],
@@ -49,7 +49,6 @@
   "workbench.startupEditor": "none",
   "workbench.view.alwaysShowHeaderActions": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "Vesper",
   "workbench.productIconTheme": "Default",
   "workbench.iconTheme": "symbols",
@@ -75,7 +74,7 @@
     "terminal.ansiWhite": "#A0A0A0",
     "terminal.ansiBrightWhite": "#ffffff",
   },
-  "symbols.hidesExplorerArrows": true,
+  "symbols.hidesExplorerArrows": false,
   "symbols.files.associations": {
     "*.module.ts": "nest",
     "*.guard.ts": "typescript",
@@ -251,7 +250,6 @@
     "zrevrank",
     "zscore",
   ],
-  "workbench.preferredDarkColorTheme": "Vesper",
   "console-ninja.featureSet": "Community",
   "emmet.includeLanguages": {
     "typescriptreact": "javascriptreact",
@@ -262,4 +260,7 @@
   "window.commandCenter": false,
   "chat.titleBar.openInAgentsWindow.enabled": false,
   "workbench.browser.showInTitleBar": false,
+  "workbench.preferredDarkColorTheme": "Oscura Midnight",
+  "workbench.browser.openLocalhostLinks": false,
+  "workbench.activityBar.location": "hidden",
 }
