@@ -42,7 +42,7 @@
   "workbench.tree.renderIndentGuides": "onHover",
   "workbench.tree.enableStickyScroll": false,
   "workbench.editor.labelFormat": "short",
-  "workbench.editor.showTabs": "none",
+  "workbench.editor.showTabs": "single",
   "workbench.editor.empty.hint": "hidden",
   "workbench.statusBar.visible": true,
   "workbench.navigationControl.enabled": false,
