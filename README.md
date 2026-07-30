@@ -50,7 +50,6 @@
   "workbench.view.alwaysShowHeaderActions": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.colorTheme": "Vesper",
-  "workbench.productIconTheme": "Default",
   "workbench.iconTheme": "symbols",
   "workbench.colorCustomizations": {
     "terminal.border": "#80808000",
@@ -126,6 +125,18 @@
   "js/ts.updateImportsOnFileMove.enabled": "always",
 
   // Terminal
+  "terminal.integrated.profiles.linux": {
+    "fish": {
+      "path": "/usr/bin/fish",
+      "icon": "terminal",
+    },
+    "bash": {
+      "path": "/bin/bash",
+      "icon": "terminal-bash",
+    },
+  },
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.external.linuxExec": "/home/themyus/.local/bin/kitty",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
@@ -136,6 +147,11 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 2,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontWeight": "390",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.cursorWidth": 3,
+  "terminal.integrated.cursorBlinking": false,
   "terminal.integrated.showExitAlert": false,
   "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
@@ -260,7 +276,9 @@
   "window.commandCenter": false,
   "chat.titleBar.openInAgentsWindow.enabled": false,
   "workbench.browser.showInTitleBar": false,
-  "workbench.preferredDarkColorTheme": "Oscura Midnight",
   "workbench.browser.openLocalhostLinks": false,
   "workbench.activityBar.location": "hidden",
+  "workbench.productIconTheme": "fluent-icons",
+  "chat.disableAIFeatures": true,
+  "workbench.preferredDarkColorTheme": "Oscura Midnight",
 }
