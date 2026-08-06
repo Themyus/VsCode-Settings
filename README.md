@@ -5,7 +5,7 @@
   // Editor
   "editor.formatOnSave": true,
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 15,
+  "editor.fontSize": 12.5,
   "editor.fontLigatures": true,
   "editor.lineHeight": 2.4,
   "editor.rulers": [],
